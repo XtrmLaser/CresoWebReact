@@ -13,7 +13,7 @@ function Navbar() {
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
-        <a href="#;" className="icon">
+        <a href="#" className="icon">
           <i className="fa fa-bars"></i>
         </a>
         <a href="#master" id="master">
