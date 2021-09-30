@@ -2,6 +2,12 @@ import React from "react";
 
 import "./FlexBox.css";
 
+function myFunction() {
+  return <h3>hello</h3>;
+}
+
+console.log(myFunction());
+
 function Flexbox() {
   return (
     <>
@@ -16,7 +22,7 @@ function Flexbox() {
           <p class="littletext">
             <b>E-Services/E-Cafe.. Maybe!</b>
           </p>
-          <button onClick="myFunction()" class="btn">
+          <button onClick={myFunction()} class="btn">
             {" "}
             <b>Services Offered</b>
           </button>
@@ -24,25 +30,14 @@ function Flexbox() {
 
         <div class="flex-child green">
           <p class="getintouch">
-            <b>Just Dive In Straight</b>
-            <br></br>
+            <b>Choose your preference! </b>
           </p>
           <button onClick="urgentCall()" class="btn" id="new">
-            <b>
-              For quick response
-              <br />
-              <br />
-              Click it!
-            </b>
+            <b>Rapid Work</b>
           </button>
 
           <button onClick="qualityCall()" class="btn" id="new">
-            <b>
-              Get your work done with Grace
-              <br />
-              <br />
-              Click it!
-            </b>
+            <b>Good Stuffs Take Time!</b>
           </button>
         </div>
       </div>
