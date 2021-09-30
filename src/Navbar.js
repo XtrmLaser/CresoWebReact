@@ -10,13 +10,13 @@ function Navbar() {
           Home
         </a>
 
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="#" className="icon">
+        <a href="https://myeduvation.in">News</a>
+        <a href="https://myeduvation.in">Contact</a>
+        <a href="https://myeduvation.in">About</a>
+        <a href="https://myeduvation.in" className="icon">
           <i className="fa fa-bars"></i>
         </a>
-        <a href="#master" id="master">
+        <a href="https://myeduvation.in" id="master">
           CreSo
         </a>
       </div>
